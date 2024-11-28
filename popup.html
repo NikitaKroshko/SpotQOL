@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f7f7f7;
+            width: 300px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+            font-size: 1em;
+            box-sizing: border-box;
+        }
+
+        input[type="text"]:focus {
+            border-color: #0066cc;
+            box-shadow: 0 0 5px rgba(0, 102, 204, 0.3);
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #0066cc;
+            color: #ffffff;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #004b99;
+        }
+
+        button:active {
+            background-color: #003366;
+        }
+    </style>
+    <head>
+        <title>SpotQOL</title>
+        <script src="popup.js" defer></script>
+    </head>
+    <body>
+        <label>
+            Color of the background
+            <input id="bg" type="text" name="bgcolor" />
+            <br />
+            Color of the text
+            <input id="txt" type="text" name="txtcolor" />
+        </label>
+        <button id="change_button">Change Spot</button>
+    </body>
+</html>

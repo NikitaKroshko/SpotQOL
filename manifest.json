@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "SpotQOL",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://studentnet.cs.manchester.ac.uk/me/spotv2/spotv2.php"
+      ],
+      "js": ["script.js"]
+    }
+  ],
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "48": "icon.svg"
+    },
+    "default_title": "SpotQOL",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "storage"]
+}
