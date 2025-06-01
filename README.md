@@ -1,6 +1,3 @@
 # SpotQOL
 
-Making changes to how spot is rendered for quality of life purposes.
-The signed extension can be found on the firefox extension website under the same name.
-This extension changes the spotQOL colours to what you want the colours to be.
-The default is black and red to be easier on the eyes, but you can change that in the source code, or change it every time you open the website.
+My University has a platform for showing student grades which is called Spot. I sometimes work in dark environments and prefer not to be blinded by a white screen in the middle of the night. As such I created a Manifest V2 extension which allows the user to change the colouring of the page to their desired preference.
