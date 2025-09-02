@@ -5,7 +5,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://studentnet.cs.manchester.ac.uk/me/spotv2/spotv2.php"
+        "https://studentnet.cs.manchester.ac.uk/me/spotv2/spotv2.php",
+        "https://digital.cs.manchester.ac.uk/spot/spotv2.php"
       ],
       "js": ["script.js"]
     }
