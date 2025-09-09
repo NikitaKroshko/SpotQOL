@@ -1,2 +1,2 @@
 Compile the project again and put the xml into the folder
-Upload the new extension to the store"
+Upload the new extension to the store
