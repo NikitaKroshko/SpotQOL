@@ -4,8 +4,7 @@ function applyStoredColours() {
   const txtColour = "red";
 
   // Change the title of the page to a funny message
-  document.getElementById("spot_title").innerHTML =
-    "Spot V2 but way cooler! 😎";
+  document.getElementById("spot_title").innerHTML = "SpotQOL";
 
   // Change the size of the due assessments table dix to show more upcoming assessments
   document.getElementById("due_assessments").style.height = "240px";
